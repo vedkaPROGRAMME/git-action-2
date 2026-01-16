@@ -1,7 +1,7 @@
 "use strict";
 
-var errors = require("../../lib/errors");
-var constants = require("../../lib/error-constants");
+var errors = require("../lib/errors");
+var constants = require("../lib/error-constants");
 const sinon = require("sinon");
 const { createNoFilesMatchPatternError } = require("../../lib/errors");
 
